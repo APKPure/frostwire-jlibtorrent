@@ -260,7 +260,7 @@ deploy:
   bucket: $S3_BUCKET
   skip_cleanup: true
   local_dir: swig/bin/release/android/armeabi-v7a/
-  acl: public_read_write
+  acl: public_read
   upload-dir: so
   on:
     all_branches: true
