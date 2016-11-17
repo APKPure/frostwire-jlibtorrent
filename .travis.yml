@@ -26,6 +26,7 @@ deploy:
   skip_cleanup: true
   local_dir: build/libs
   upload-dir: jar
+  acl: public_read
   on:
     all_branches: true
 
