@@ -28,3 +28,9 @@ deploy:
   upload-dir: jar
   on:
     all_branches: true
+
+#notifications:
+# email: false
+notifications:
+  email:
+    - opensource@apkpure.com
