@@ -255,9 +255,9 @@ before_deploy:
 
 deploy:
   provider: s3
-  access_key_id: $S3_ACCESS_KEY
-  secret_access_key: $S3_SECRET_KEY
-  bucket: $S3_BUCKET
+  access_key_id: $APKPURE_S3_ACCESS_KEY
+  secret_access_key: $APKPURE_S3_SECRET_KEY
+  bucket: $APKPURE_S3_BUCKET
   skip_cleanup: true
   local_dir: swig/bin/release/android/armeabi-v7a/
   acl: public_read
